@@ -1,0 +1,4 @@
+---
+- name: Renaming directories
+  ansible.builtin.debug:
+    msg: "Renaming directories"
