@@ -3,6 +3,6 @@
   ansible.builtin.debug:
     msg: "Renaming directories"
 
-- name: Renaming directories
-  shell: "mv {{ final_template_folder }}/<%component%> {{ final_template_folder }}/{{component}}"
+- shell: "mv {{ final_template_folder }}/src/{{'{{'}}component{{'}}'}} {{ final_template_folder }}/src/{{component}}"
+  
 
